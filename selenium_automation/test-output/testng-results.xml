@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="46" started-at="2020-10-30T07:02:08 IST" finished-at="2020-10-30T07:02:08 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="46" started-at="2020-10-30T07:02:08 IST" finished-at="2020-10-30T07:02:08 IST">
+      <class name="packegeDemo1.TestNgClass">
+        <test-method status="PASS" signature="car()[pri:1, instance:packegeDemo1.TestNgClass@5b87ed94]" name="car" duration-ms="7" started-at="2020-10-30T07:02:08 IST" finished-at="2020-10-30T07:02:08 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- car -->
+        <test-method status="PASS" signature="honda()[pri:1, instance:packegeDemo1.TestNgClass@5b87ed94]" name="honda" duration-ms="1" started-at="2020-10-30T07:02:08 IST" finished-at="2020-10-30T07:02:08 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- honda -->
+        <test-method status="PASS" signature="audi()[pri:2, instance:packegeDemo1.TestNgClass@5b87ed94]" name="audi" duration-ms="1" started-at="2020-10-30T07:02:08 IST" finished-at="2020-10-30T07:02:08 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- audi -->
+        <test-method status="PASS" signature="bmw()[pri:3, instance:packegeDemo1.TestNgClass@5b87ed94]" name="bmw" duration-ms="1" started-at="2020-10-30T07:02:08 IST" finished-at="2020-10-30T07:02:08 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bmw -->
+      </class> <!-- packegeDemo1.TestNgClass -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
