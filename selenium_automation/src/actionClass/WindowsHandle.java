@@ -1,4 +1,4 @@
-package selenimDropDown;
+package actionClass;
 
 import java.util.Iterator;
 import java.util.Set;
@@ -11,7 +11,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 public class WindowsHandle {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) throws InterruptedException {
 		// TODO Auto-generated method stub
 		
 		System.setProperty("webdriver.chrome.driver", "D:\\selenium_drivers\\chromedriver.exe");
@@ -43,7 +43,7 @@ public class WindowsHandle {
 	// switch to child to parentwindows id
 	driver.switchTo().window(parentId);
 	driver.findElement(By.id("username")).sendKeys(emailId);
-	
+	Thread.sleep(3000);
 	driver.quit();
 		
 	}
