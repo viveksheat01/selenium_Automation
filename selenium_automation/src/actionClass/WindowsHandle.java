@@ -44,6 +44,7 @@ public class WindowsHandle {
 	driver.switchTo().window(parentId);
 	driver.findElement(By.id("username")).sendKeys(emailId);
 	Thread.sleep(3000);
+	// quite the windoes
 	driver.quit();
 		
 	}
